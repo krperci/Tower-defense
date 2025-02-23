@@ -5,8 +5,8 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     private float moveSpeed = 10f;
-    private float minZ = -17.5f;
-    private float maxZ = -4.45f;
+    private float minZ = -19.5f;
+    private float maxZ = -1.45f;
     public float scrollSpeed = 10f;
     private float minY = 5f;
     private float maxY = 20f;
