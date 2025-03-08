@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f571ce8aad106b4aa19b245e472c7c2, type: 3}
-  m_Name: Basic
+  m_Name: Soldier
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 0}
-  range: 0
-  damage: 0
+  range: 5
+  damage: 7
+  cooldown: 1.5
