@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    private int coins;
     private int Health = 3;
     [SerializeField] TextMeshProUGUI textHeath;
     public Sprite heartSprite;
@@ -31,7 +32,6 @@ public class Player : MonoBehaviour
 
     private void UpdateUI()
     {
-        //textHeath.text = $"Player Health: {Health.ToString()}";
 
         foreach (Transform child in heartsContainer)
         {
