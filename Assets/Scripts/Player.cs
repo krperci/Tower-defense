@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    private int coins;
+    public int coins;
     private int Health = 3;
     [SerializeField] TextMeshProUGUI textHeath;
     public Sprite heartSprite;
@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         UpdateUI();
+        coins = 225;
     }
     
     public void TakeDamage()
